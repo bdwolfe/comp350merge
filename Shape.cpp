@@ -1,6 +1,3 @@
-// Britton Wolfe
-// Merging example
-
 #include "Shape.h"
 
 using namespace std;
@@ -10,5 +7,5 @@ Shape::Shape(string& color){
 }
 
 string Shape::getColor(){
-  return this.color;
+  return color;
 }
